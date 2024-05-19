@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007BFF; 
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .logout {
+    text-decoration: none;
+    color: white;
+    background-color: #E74C3C; 
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.header .logout:hover {
+    background-color: #C0392B;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+
+.sidebar {
+    background-color:  #007BFF; 
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar button,
+.sidebar a button {
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.sidebar button:hover,
+.sidebar a button:hover {
+    background-color: #FFD700; 
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.btn-supprimer, .btn-modifier {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-supprimer {
+    background-color: #E74C3C;
+}
+
+.btn-modifier {
+    background-color: #8A2BE2;
+}
+
+.btn-supprimer:hover {
+    background-color: #C0392B;
+}
+
+.btn-modifier:hover {
+    background-color: #6A0DAD;
+}
+
+
+
